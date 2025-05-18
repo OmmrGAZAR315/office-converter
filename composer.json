@@ -1,6 +1,6 @@
 {
-    "name" : "ncjoes/office-converter",
-    "description" : "PHP Wrapper for LibreOffice",
+    "name" : "omr_gz/office-converter",
+    "description" : "PHP Wrapper for LibreOffice, froked from *ncjoes/office-converter*",
     "keywords" : ["Office","Converter"],
     "license" : "MIT",
     "authors" : [
