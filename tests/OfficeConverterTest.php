@@ -18,13 +18,13 @@ class OfficeConverterTest extends TestCase
     private $converter;
     private $outDir;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
         $DS = DIRECTORY_SEPARATOR;
-        $file = __DIR__."{$DS}sources{$DS}test1.docx";
-        $this->outDir = __DIR__."{$DS}results";
+        $file = __DIR__ . "{$DS}sources{$DS}test1.docx";
+        $this->outDir = __DIR__ . "{$DS}results";
 
         $this->converter = new OfficeConverter($file, $this->outDir);
     }

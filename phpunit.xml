@@ -2,13 +2,8 @@
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
          colors="true"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false"
-         syntaxCheck="true"
-         verbose="false"
          bootstrap="vendor/autoload.php"
 >
     <php>
